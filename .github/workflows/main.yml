@@ -21,7 +21,7 @@ jobs:
         NAME: Loganysl
       with:
         arch: arm64
-        compiler: gcc/12
+        compiler: clang/15/binutils
         defconfig: RMX2001_defconfig
         image: Image.gz-dtb
 
